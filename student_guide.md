@@ -95,7 +95,7 @@ if iteration >= self.max_iterations:
 
 Sau khi hoàn thành `template.py`, chạy lệnh pytest tại thư mục gốc dự án:
 ```bash
-python3 -m pytest Day03-Chatbot-vs-ReAct-Agent/02-lab/autograder/test_agent.py -v
+python -m pytest autograder/test_agent.py -v
 ```
 
 Nếu 5/5 test cases báo `PASSED`, chúc mừng bạn đã hoàn thành xuất sắc Lab #3!
